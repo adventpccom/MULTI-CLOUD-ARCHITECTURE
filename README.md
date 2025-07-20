@@ -12,7 +12,7 @@
 
 *MENTOR* : NEELA SANTOSH
 
-##DESCRIPTION OF TASK 1 :
+##DESCRIPTION OF TASK 3 :
 In this task, I explored and implemented a Multi-Cloud Architecture setup where services are distributed across two different cloud platforms. The idea was to design a solution that does not rely solely on one cloud provider and ensures better redundancy, availability, and flexibility. For this task, I selected AWS and Google Cloud Platform (GCP) as the two cloud providers. I began by identifying a basic architecture that could work across both platforms. On AWS, I used S3 for storage and EC2 for hosting a lightweight application. On GCP, I set up Cloud Storage and Compute Engine. The purpose was to simulate how data or services could interact between platforms. I created an architecture where files uploaded to AWS S3 could be synced to Google Cloud Storage using a script or automation, showcasing interoperability.
 
 One of the main challenges was handling authentication and permissions securely between both platforms. For that, I generated keys from both AWS and GCP and securely stored them. I used Python and command-line tools like AWS CLI and GCloud CLI to transfer or sync data between the two clouds. I documented all the steps involved — from setting up IAM roles and service accounts to writing the scripts for syncing data. To demonstrate interoperability, I created a report showing how a file uploaded on AWS was reflected on GCP using automated sync. I also explained in the documentation how multi-cloud setups help avoid vendor lock-in and improve failover options.
